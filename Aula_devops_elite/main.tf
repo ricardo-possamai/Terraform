@@ -15,7 +15,7 @@ terraform {
 
 # Configure the DigitalOcean Provider
 provider "digitalocean" {
-  token = "dop_v1_d515d933028e884acf3c1dac8a6a7f0f78ead3a68cdbe44b3fad5677af268ad2"
+  token = "268ad2"
 }
 data "digitalocean_ssh_key" "jornada" {
   name = "jornada"
